@@ -36,7 +36,7 @@ color: #505a5f;
 @media screen  and (max-width: 640px) {
     #userInput{
         padding: 6px;
-        width: 50%;}
+        width: 70%;}
     h1{font-size: 30px;
         font-weight: bolder;
         padding: 0px 0px;
