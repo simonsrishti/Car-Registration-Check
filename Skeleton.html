@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="row" action="CarDetails.php">
+    <div class="col">
+        <h1>What is the vehicle's registration <br> number?</h1>
+        <h2>Registration number (number plate)</h2>
+        <h3>For example, CU57ABC or ABC1234</h3>
+        <input type="text" id="userInput"><br>
+        <button id="search">Continue</button>
+    </div>
+</div>
+
+
+<div class="row details">
+    <div class="container_Title">
+        <span class="registration_Number"></span>
+        <span class="car_Make_model"></span>
+    </div>
+
+    <div class="container_details">
+        <div class="col">
+            <h3 class="car_details">colour</h3>
+            <h2 class="car_details_title color"></h2>
+        </div>
+        <div class="col">
+            <h3 class="car_details">Fuel Type</h3>
+            <h2 class="car_details_title fuelType"></h2>
+        </div>
+        <div class="col">
+            <h3 class="car_details">Date registered</h3>
+            <h2 class="car_details_title regdate"></h2>
+        </div>
+
+        </div>
+    <div class="container_Result">
+            <h3 class="result_1">Date Tested </h3>
+            <h2 class="result_2"></h2>
+            <h1 class="result_3"></h1>
+    </div>
+
+
+</div>
+
+
+
+<script src="car.js" type="text/javascript"></script>
+</body>
+</html>
