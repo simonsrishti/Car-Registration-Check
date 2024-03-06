@@ -51,6 +51,11 @@ color: #505a5f;
             margin: 35px 0px;
             width: 100%;
             }
+                .container_details{
+                display: flex;
+                flex-direction: column;
+                
+            }
 
     
 }
